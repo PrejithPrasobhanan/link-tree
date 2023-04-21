@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background-color: black;
+}
+
+#spotlight div{
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    padding: 20px;
+}
+
+#spotlight img{
+    width: 100%;
+    border-radius: 50%;
+    
+}
+#spootlight{
+    padding: 100px;
+}
+h1{
+    text-align: center;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    margin: 10px 0;
+
+}
+p{
+    color: white;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+.card{
+    background-color: white;
+    display: flex;
+    max-width: 350px;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 20px;
+}
+.iconimg{
+    width: 10%;
+    
+}
+.cardcontant{
+    width: 90%;
+    text-align: center;
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.pic{
+    background-color: gray;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 10px;
+    max-width: 200px;
+    display: flex;
+    height: 40px;
+}
+.pic img{
+    margin: 0 auto;
+}
+.card img{
+    height: 35px;
+}
+.card:hover{
+    transform: scale(1.1);
+    transition-delay: .05s;
+}
+
+@media only screen and (max-width: 400px){
+    .card{
+        background-color: white;
+        display: flex;
+        max-width: 244px;
+        margin: 11px auto;
+        padding: 6px;
+        border-radius: 20px;
+    }
+
+}
